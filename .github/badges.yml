@@ -1,0 +1,17 @@
+# .github/badges.yml
+badges:
+  - name: Build Status
+    shield: "https://img.shields.io/github/actions/workflow/status/.github/workflows/ci.yml?branch=main&style=for-the-badge&logo=github"
+    url: "https://github.com/chirag127/Academic-Portfolio-8th-Semester-Retired-Archive/actions/workflows/ci.yml"
+  - name: License
+    shield: "https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge"
+    url: "LICENSE"
+  - name: Tech Stack
+    shield: "https://img.shields.io/badge/Vite-7-blue?style=for-the-badge&logo=vite"
+    url: "https://vitejs.dev/"
+  - name: TypeScript
+    shield: "https://img.shields.io/badge/TypeScript-6-blue?style=for-the-badge&logo=typescript"
+    url: "https://www.typescriptlang.org/"
+  - name: Tailwind CSS
+    shield: "https://img.shields.io/badge/Tailwind-4-blue?style=for-the-badge&logo=tailwind-css"
+    url: "https://tailwindcss.com/"
