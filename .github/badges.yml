@@ -1,0 +1,26 @@
+# .github/badges.yml
+license:
+  name: License
+  shield: "CC BY-NC 4.0"
+  color: lightgrey
+  url: "https://creativecommons.org/licenses/by-nc/4.0/"
+ci:
+  name: CI
+  shield: "passing"
+  color: green
+  url: "./actions/workflows/ci.yml"
+typescript:
+  name: TypeScript
+  shield: "5.x"
+  color: "007ACC"
+  logo: "typescript"
+vite:
+  name: Vite
+  shield: "5.x"
+  color: "B73BFE"
+  logo: "vite"
+tailwind:
+  name: Tailwind CSS
+  shield: "4.x"
+  color: "38B2AC"
+  logo: "tailwind-css"
