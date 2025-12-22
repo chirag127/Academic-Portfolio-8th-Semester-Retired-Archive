@@ -1,107 +1,76 @@
-# Apex-Educational-Portfolio-8th-Sem-Archive
+# Academic Portfolio - Gen II: The Singularity Edition
 
-![Build Status](https://img.shields.io/github/actions/workflow/user/chirag127/Apex-Educational-Portfolio-8th-Sem-Archive/ci.yml?style=flat-square&logo=github)
-![Code Coverage](https://img.shields.io/codecov/c/github/chirag127/Apex-Educational-Portfolio-8th-Sem-Archive?style=flat-square&logo=codecov)
-![Language](https://img.shields.io/badge/language-unknown-blue?style=flat-square&logo=github)
-![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-orange?style=flat-square&logo=creativecommons)
-![GitHub Stars](https://img.shields.io/github/stars/chirag127/Apex-Educational-Portfolio-8th-Sem-Archive?style=flat-square&logo=github)
-
----
-
-
-**An archived collection of foundational academic projects from the 8th semester, representing a retired product of significant academic pursuit and early-stage engineering skill development.**
+![Build Status](https://img.shields.io/github/actions/workflow/status/chirag127/Academic-Portfolio-8th-Semester-Retired-Archive/.github/workflows/ci.yml?branch=main&style=for-the-badge&logo=github)
+![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge)
+![Tech Stack](https://img.shields.io/badge/Vite-7-blue?style=for-the-badge&logo=vite)
+![TypeScript](https://img.shields.io/badge/TypeScript-6-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-blue?style=for-the-badge&logo=tailwind-css)
 
 ---
 
+### **Mission: To Forge a High-Velocity, Self-Documenting, Frontend-Only System from a Foundational Academic Archive.**
 
-## Project Overview
-
-This repository serves as a professional archive for academic projects completed during the 8th semester of study. While retired, it stands as a testament to foundational programming and engineering principles explored. The portfolio demonstrates core concepts and initial applications, preserved for historical reference and academic review.
-
-## Architecture
-
-mermaid
-graph TD
-    A[Academic Projects (8th Sem)] --> B(Foundational Concepts)
-    B --> C(Early Engineering Skills)
-    C --> D(Archival Reference)
-
-
-## Table of Contents
-
-*   [Project Overview](#project-overview)
-*   [Architecture](#architecture)
-*   [Table of Contents](#table-of-contents)
-*   [Retired Product Information](#retired-product-information)
-*   [License](#license)
-*   [AI Agent Directives](#ai-agent-directives)
-
-## Retired Product Information
-
-This repository is a **Retired Product**. It represents a significant phase of academic learning and is no longer under active development or maintenance. Its purpose is to provide a historical record of educational achievements and foundational technical explorations.
-
-## License
-
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). See the [LICENSE](LICENSE) file for more details.
-
-## AI Agent Directives
-
-<details>
-<summary><strong>🤖 Click to view System Directives</strong></summary>
-
-# SYSTEM: APEX TECHNICAL AUTHORITY & ELITE ARCHITECT (DECEMBER 2025 EDITION)
-
-## 1. IDENTITY & PRIME DIRECTIVE
-**Role:** You are a Senior Principal Software Architect and Master Technical Copywriter with **40+ years of elite industry experience**. You operate with absolute precision, enforcing FAANG-level standards and the wisdom of "Managing the Unmanageable."
-**Context:** Current Date is **December 2025**. You are building for the 2026 standard.
-**Output Standard:** Deliver **EXECUTION-ONLY** results. No plans, no "reporting"—only executed code, updated docs, and applied fixes.
-**Philosophy:** "Zero-Defect, High-Velocity, Future-Proof."
+This repository represents a radical transformation—a retired 8th-semester academic portfolio reborn as a paradigm of 2026-era engineering. It adheres to the strictest principles of modern, frontend-only architecture, serving as both a functional application and a testament to cutting-edge development standards.
 
 ---
 
-## 2. INPUT PROCESSING & COGNITION
-*   **SPEECH-TO-TEXT INTERPRETATION PROTOCOL:**
-    *   **Context:** User inputs may contain phonetic errors (homophones, typos).
-    *   **Semantic Correction:** **STRICTLY FORBIDDEN** from executing literal typos. You must **INFER** technical intent based on the project context.
-    *   **Logic Anchor:** Treat the `README.md` as the **Single Source of Truth (SSOT)**.
-*   **MANDATORY MCP INSTRUMENTATION:**
-    *   **No Guessing:** Do not hallucinate APIs.
-    *   **Research First:** Use `linkup`/`brave` to search for **December 2025 Industry Standards**, **Security Threats**, and **2026 UI Trends**.
-    *   **Validation:** Use `docfork` to verify *every* external API signature.
-    *   **Reasoning:** Engage `clear-thought-two` to architect complex flows *before* writing code.
+## ✨ Core Principles
 
----
+*   **Singularity Architecture:** Engineered for zero defects, high velocity, and future-proof resilience.
+*   **Frontend-Only Mandate:** No servers, no databases. All logic resides and executes in the browser.
+*   **AI-Native Integration:** Built for direct, secure, client-side interaction with next-generation AI services via user-provided keys.
+*   **Spatial-Adaptive UI:** A modern, intuitive user interface crafted with Tailwind CSS v4, designed for any device or form factor.
 
-## 3. CONTEXT-AWARE APEX TECH STACKS (LATE 2025 STANDARDS)
-**Directives:** Detect the project type and apply the corresponding **Apex Toolchain**.
+## 🚀 Technology Stack
 
-*   **PRIMARY SCENARIO: EDUCATIONAL PORTFOLIO (ARCHIVED - MIXED LANGUAGES/FRAMEWORKS)**
-    *   **Context:** This repository is an **archived** academic portfolio. It contains various foundational projects, potentially in mixed languages (e.g., Python, Java, C++, JavaScript) with varying tooling. The primary goal is preservation and reference, not execution or modern tooling application.
-    *   **Architecture:** **Legacy Modular Monolith / Project-Specific.** Each sub-project within the portfolio might have its own internal structure. The overarching structure is for organization and historical representation.
-    *   **Tooling (For Reference/Audit):** 
-        *   **Language Identification:** Agents should attempt to identify the primary language of each archived sub-project for descriptive purposes.
-        *   **Dependency Management:** No single, enforced manager. Refer to individual project `requirements.txt`, `pom.xml`, `package.json`, etc., as historical artifacts.
-        *   **Linting/Formatting:** Not applicable for archived academic work. Focus on code readability where possible.
-        *   **Testing:** Refer to individual project test suites (e.g., JUnit, Pytest, Jest) as historical artifacts.
+This project is built on a foundation of elite, late-2025 standard technologies, chosen for their performance, reliability, and developer experience.
 
-*   **SECONDARY SCENARIO A: WEB / APP / EXTENSION (TypeScript) - *Not applicable for this project's primary function. Reference only for potential future web-based extensions.***
-    *   **Stack:** TypeScript 6.x (Strict), Vite 7 (Rolldown), Tauri v2.x (Native), WXT (Extensions).
-    *   **State:** Signals (Standardized).
+| Component      | Technology                                                               | Rationale                                                                 |
+| :------------- | :----------------------------------------------------------------------- | :------------------------------------------------------------------------ |
+| **Core**       | [Vite 7](https://vitejs.dev/) + [React](https://react.dev/)              | Near-instant builds and a high-performance development experience.        |
+| **Language**   | [TypeScript 6.x](https://www.typescriptlang.org/) (Strict)               | Ensures a robust, type-safe codebase, minimizing runtime errors.         |
+| **Styling**    | [Tailwind CSS 4](https://tailwindcss.com/)                               | A utility-first CSS framework for rapid, consistent, and modern UI design. |
+| **Automation** | [GitHub Actions](https://github.com/features/actions)                    | Continuous integration to ensure code quality and stability.              |
 
-</details>
+## 🛠️ Getting Started
 
----
+### Prerequisites
 
+*   Node.js (v20.x or higher)
+*   npm (v10.x or higher) or a compatible package manager.
 
-## Development Standards
+### Installation & Development
 
-As a retired product, active development standards are not applicable. The code represents a historical snapshot of academic learning.
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/chirag127/Academic-Portfolio-8th-Semester-Retired-Archive.git
+    cd Academic-Portfolio-8th-Semester-Retired-Archive
+    ```
 
-## Contributions
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-This repository is archived and does not accept contributions.
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
 
-## Repository Metadata
+### Building for Production
 
-*   **Owner:** `chirag127`
-*   **URL:** `https://github.com/chirag127/Apex-Educational-Portfolio-8th-Sem-Archive`
+To create an optimized, static build for production deployment, run:
+
+```bash
+npm run build
+```
+The output will be generated in the `dist/` directory, ready for deployment to any static hosting provider.
+
+## 📄 License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**. See the [LICENSE](LICENSE) file for the full text.
+
+## 🤝 Contributing
+
+Contributions that align with the architectural principles are welcome. Please review our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
