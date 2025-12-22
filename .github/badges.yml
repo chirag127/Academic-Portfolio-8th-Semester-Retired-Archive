@@ -1,0 +1,17 @@
+# Badges configuration
+# See https://github.com/sev-2/sport/blob/main/badges.yml
+# for more information.
+- name: Build Status
+  image: https://img.shields.io/github/actions/workflow/status/{owner}/{repo}/ci.yml?style=flat-square&logo=github
+  link: https://github.com/{owner}/{repo}/actions/workflows/ci.yml
+- name: Code Coverage
+  image: https://img.shields.io/codecov/c/github/{owner}/{repo}?style=flat-square&logo=codecov
+  link: https://app.codecov.io/gh/{owner}/{repo}
+- name: Language
+  image: https://img.shields.io/badge/language-{language}-blue?style=flat-square&logo=github
+- name: License
+  image: https://img.shields.io/badge/license-{license}-orange?style=flat-square&logo=creativecommons
+  link: LICENSE
+- name: GitHub Stars
+  image: https://img.shields.io/github/stars/{owner}/{repo}?style=flat-square&logo=github
+  link: https://github.com/{owner}/{repo}/stargazers
