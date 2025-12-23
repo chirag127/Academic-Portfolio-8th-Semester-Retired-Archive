@@ -1,4 +1,4 @@
-# Contributing to Academic Portfolio - Gen II
+# Contributing to Academic Portfolio - 2026 Paradigm Edition
 
 We welcome contributions to this project! Please follow these guidelines to ensure a smooth and effective collaboration process.
 
@@ -7,7 +7,7 @@ We welcome contributions to this project! Please follow these guidelines to ensu
 1.  **Fork the repository:** Click the "Fork" button at the top right of this page.
 2.  **Clone your fork:**
     ```bash
-    git clone https://github.com/chirag127/Academic-Portfolio-8th-Semester-Retired-Archive.git
+    git clone https://github.com/your-username/Academic-Portfolio-8th-Semester-Retired-Archive.git
     cd Academic-Portfolio-8th-Semester-Retired-Archive
     ```
 3.  **Create a new branch:**
@@ -28,12 +28,25 @@ We welcome contributions to this project! Please follow these guidelines to ensu
 
 ## 📝 Code Style
 
-*   **TypeScript:** We use Prettier for code formatting. Please run `npm run format` before committing your changes.
+*   **TypeScript & Formatting:** We use Biome for linting and formatting. Please run the following commands before committing your changes:
+    ```bash
+    # Check for linting errors
+    npm run lint:check
+
+    # Fix linting errors
+    npm run lint:fix
+
+    # Check formatting
+    npm run format:check
+
+    # Fix formatting
+    npm run format:fix
+    ```
 *   **Tailwind CSS:** Follow the standard Tailwind CSS class naming conventions.
 
 ## 🐛 Reporting Bugs
 
-If you find a bug, please create an issue in the [GitHub issue tracker](https://github.com/chirag127/Academic-Portfolio-8th-Semester-Retired-Archive/issues). Please provide a detailed description of the bug and steps to reproduce it.
+If you find a bug, please create an issue in the [GitHub issue tracker](https://github.com/your-username/Academic-Portfolio-8th-Semester-Retired-Archive/issues). Please provide a detailed description of the bug and steps to reproduce it.
 
 ## 💡 Proposing Features
 

@@ -1,7 +1,7 @@
 # .github/badges.yml
 badges:
   - name: Build Status
-    shield: "https://img.shields.io/github/actions/workflow/status/.github/workflows/ci.yml?branch=main&style=for-the-badge&logo=github"
+    shield: "https://img.shields.io/github/actions/workflow/status/chirag127/Academic-Portfolio-8th-Semester-Retired-Archive/ci.yml?branch=main&style=for-the-badge&logo=github"
     url: "https://github.com/chirag127/Academic-Portfolio-8th-Semester-Retired-Archive/actions/workflows/ci.yml"
   - name: License
     shield: "https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge"
