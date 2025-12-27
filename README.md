@@ -1,49 +1,51 @@
-# Academic Portfolio - Gen II: The Singularity Edition
+# Academic Portfolio (8th Semester) - 2026 Paradigm Edition
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/chirag127/Academic-Portfolio-8th-Semester-Retired-Archive/.github/workflows/ci.yml?branch=main&style=for-the-badge&logo=github)
-![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge)
-![Tech Stack](https://img.shields.io/badge/Vite-7-blue?style=for-the-badge&logo=vite)
-![TypeScript](https://img.shields.io/badge/TypeScript-6-blue?style=for-the-badge&logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-blue?style=for-the-badge&logo=tailwind-css)
+![Version](https://img.shields.io/badge/version-2026.1.0-blue.svg)
+![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+[![CI](https://github.com/chirag127/Academic-Portfolio-8th-Semester-Retired-Archive/actions/workflows/ci.yml/badge.svg)](https://github.com/chirag127/Academic-Portfolio-8th-Semester-Retired-Archive/actions/workflows/ci.yml)
 
----
+A modernized, frontend-only evolution of a final-semester academic portfolio, re-architected to meet 2026 AI-native standards. This project serves as a demonstration of a high-velocity, self-healing, and self-documenting system built on a serverless, browser-first philosophy.
 
-### **Mission: To Forge a High-Velocity, Self-Documenting, Frontend-Only System from a Foundational Academic Archive.**
+## Mission & Principles
 
-This repository represents a radical transformation—a retired 8th-semester academic portfolio reborn as a paradigm of 2026-era engineering. It adheres to the strictest principles of modern, frontend-only architecture, serving as both a functional application and a testament to cutting-edge development standards.
+- **Frontend-Only Architecture:** Eliminate all backend dependencies. The application runs entirely within the browser, leveraging client-side processing and direct REST API calls to external services.
+- **AI-Native Integration:** Implement a resilient, multi-provider AI orchestration layer with a fallback chain and exponential backoff, ensuring high availability and performance.
+- **User-Centric Key Management:** Empower users to provide their own API keys at runtime via the UI, which are securely stored in `localStorage`.
+- **Modern, Future-Proof Tech Stack:** Utilize a bleeding-edge technology stack aligned with late-2025/early-2026 standards, including Vite 7, TypeScript 6, Tailwind v4, and Biome.
+- **Spatial-Adaptive UI:** Deliver a modern user experience with a "Spatial Glass" aesthetic and Bento Grid layout, ensuring a clean, intuitive, and responsive interface.
 
----
+## Technology Overview
 
-## ✨ Core Principles
+- **Framework:** React 19 (with Signals for state management)
+- **Build Tool:** Vite 7
+- **Language:** TypeScript 6.x
+- **Styling:** Tailwind CSS v4
+- **Linting & Formatting:** Biome
+- **CI/CD:** GitHub Actions
 
-*   **Singularity Architecture:** Engineered for zero defects, high velocity, and future-proof resilience.
-*   **Frontend-Only Mandate:** No servers, no databases. All logic resides and executes in the browser.
-*   **AI-Native Integration:** Built for direct, secure, client-side interaction with next-generation AI services via user-provided keys.
-*   **Spatial-Adaptive UI:** A modern, intuitive user interface crafted with Tailwind CSS v4, designed for any device or form factor.
+## Architecture
 
-## 🚀 Technology Stack
+This application adheres to a strict frontend-only architecture. All logic is executed in the browser, and data is persisted in client-side storage (`localStorage`).
 
-This project is built on a foundation of elite, late-2025 standard technologies, chosen for their performance, reliability, and developer experience.
+### AI Orchestration Layer
 
-| Component      | Technology                                                               | Rationale                                                                 |
-| :------------- | :----------------------------------------------------------------------- | :------------------------------------------------------------------------ |
-| **Core**       | [Vite 7](https://vitejs.dev/) + [React](https://react.dev/)              | Near-instant builds and a high-performance development experience.        |
-| **Language**   | [TypeScript 6.x](https://www.typescriptlang.org/) (Strict)               | Ensures a robust, type-safe codebase, minimizing runtime errors.         |
-| **Styling**    | [Tailwind CSS 4](https://tailwindcss.com/)                               | A utility-first CSS framework for rapid, consistent, and modern UI design. |
-| **Automation** | [GitHub Actions](https://github.com/features/actions)                    | Continuous integration to ensure code quality and stability.              |
+The core of this application is the `AiProviderService`, which manages a fallback chain of AI providers:
 
-## 🛠️ Getting Started
+1.  **Cerebras** (Primary)
+2.  **Google Gemini** (Backup)
+3.  **Groq** (Resilience)
+4.  **Mistral** (Resilience)
+5.  **NVIDIA NIM** (Resilience)
+6.  **Cloudflare Workers AI** (Resilience)
 
-### Prerequisites
+This service uses exponential backoff to handle API failures, ensuring a seamless user experience even when a primary provider is unavailable.
 
-*   Node.js (v20.x or higher)
-*   npm (v10.x or higher) or a compatible package manager.
-
-### Installation & Development
+## Quick Start
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/chirag127/Academic-Portfolio-8th-Semester-Retired-Archive.git
+    git clone https://github.com/your-username/Academic-Portfolio-8th-Semester-Retired-Archive.git
     cd Academic-Portfolio-8th-Semester-Retired-Archive
     ```
 
@@ -56,21 +58,14 @@ This project is built on a foundation of elite, late-2025 standard technologies,
     ```bash
     npm run dev
     ```
-    The application will be available at `http://localhost:5173`.
 
-### Building for Production
+4.  **Open the application:**
+    Navigate to `http://localhost:5173` in your browser.
 
-To create an optimized, static build for production deployment, run:
+5.  **Configure API Keys:**
+    - In the application's UI, open the API Keys section.
+    - Enter your API keys for the desired AI providers. These will be stored securely in your browser's `localStorage`.
 
-```bash
-npm run build
-```
-The output will be generated in the `dist/` directory, ready for deployment to any static hosting provider.
+## License
 
-## 📄 License
-
-This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**. See the [LICENSE](LICENSE) file for the full text.
-
-## 🤝 Contributing
-
-Contributions that align with the architectural principles are welcome. Please review our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**. See the [LICENSE](LICENSE) file for details.
